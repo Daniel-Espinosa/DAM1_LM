@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protectora>
+    <perros>
+        <perro id="P01">
+            <nombre>Yogui</nombre>
+            <raza>Fox Terrier</raza>
+            <tamaño>pequeño</tamaño>
+            <peso>8</peso>
+        </perro>
+        <perro id="P02">
+            <nombre>Visi</nombre>
+            <raza>Fox Terrier</raza>
+            <tamaño>pequeño</tamaño>
+            <peso>5</peso>
+        </perro>
+        <perro id="P03">
+            <nombre>Marla</nombre>
+            <raza>American Stanford</raza>
+            <tamaño>mediano</tamaño>
+            <peso>13</peso>
+        </perro>
+        <perro id="P04">
+            <nombre>Laika</nombre>
+            <raza>Fox Terrier</raza>
+            <tamaño>pequeño</tamaño>
+            <peso>7</peso>
+        </perro>
+        <perro id="P05">
+            <nombre>Bepo</nombre>
+            <raza>schnauzer</raza>
+            <tamaño>grande</tamaño>
+            <peso>28</peso>
+        </perro>
+    </perros>
+    <dueños>
+        <dueño id="D01">
+            <nombre>Paz</nombre>
+            <apellido>Hernandez</apellido>
+            <ciudad>Santander</ciudad>
+            <n_perros>2</n_perros>
+            <id_perro>P01</id_perro>
+            <id_perro>P02</id_perro>
+        </dueño>
+        <dueño id="D02">
+            <nombre>Noa</nombre>
+            <apellido>García</apellido>
+            <ciudad>Torrelavega</ciudad>
+            <n_perros>1</n_perros>
+            <id_perro>P03</id_perro>
+        </dueño>
+        <dueño id="D03">
+            <nombre>Pedro</nombre>
+            <apellido>Ríos</apellido>
+            <ciudad>Astillero</ciudad>
+            <n_perros>2</n_perros>
+            <id_perro>P04</id_perro>
+            <id_perro>P05</id_perro>
+        </dueño>
+    </dueños>
+</protectora>

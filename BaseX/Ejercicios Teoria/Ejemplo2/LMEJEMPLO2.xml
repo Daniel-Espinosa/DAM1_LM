@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<floristeria>
+    <flor>
+        <nombre>Clavel</nombre>
+        <precio>23€</precio>
+        <temporada>Primavera</temporada>
+        <origen nLote="213">España</origen>
+    </flor>
+    <flor>
+        <nombre>Rosa</nombre>
+        <precio>23€</precio>
+        <temporada>Verano</temporada>
+        <origen nLote="225">España</origen>
+    </flor>
+    <flor>
+        <nombre>Margarita</nombre>
+        <precio>30€</precio>
+        <temporada>Primavera</temporada>
+        <origen nLote="155">España</origen>
+    </flor>
+    <flor>
+        <nombre>Amapola</nombre>
+        <precio>15€</precio>
+        <temporada>Verano</temporada>
+        <origen nLote="254">Italia</origen>
+    </flor>
+    <flor>
+        <nombre>Tulipan</nombre>
+        <precio>30€</precio>
+        <temporada>Primavera</temporada>
+        <origen nLote="113">Holanda</origen>
+    </flor>
+</floristeria>
