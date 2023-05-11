@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejemplo0.xsl"?>
+<catalogo>
+    <disco>
+        <titulo>Album Negro</titulo>
+        <cantante>Jose López</cantante>
+        <guitarra>Ana pérez</guitarra>
+        <bateria>Lola Díaz</bateria>
+        <año>1986</año>
+    </disco>
+    <disco>
+        <titulo>Vacaciones en el Mar</titulo>
+        <cantante>Pedro Ríos</cantante>
+        <guitarra>Mara Fernández</guitarra>
+        <bateria>José Paez</bateria>
+        <año>2000</año>
+    </disco>
+    <disco>
+        <titulo>Fiesta</titulo>
+        <cantante>Manu Laso</cantante>
+        <guitarra>Laura Lisa</guitarra>
+        <bateria>Nano Meng</bateria>
+        <año>2010</año>
+    </disco>
+</catalogo>

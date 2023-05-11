@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla2.xsl"?>
+<floristeria>
+    <flor>
+        <nombre>Rosa</nombre>
+        <precio>10€</precio>
+        <color>Rojo</color>
+        <temporada>Primavera</temporada>
+    </flor>
+    <flor>
+        <nombre>Narciso</nombre>
+        <precio>15€</precio>
+        <color>Blanco</color>
+        <temporada>Verano</temporada>
+    </flor>
+    <flor>
+        <nombre>Margarita</nombre>
+        <precio>8€</precio>
+        <color>Blanco</color>
+        <temporada>Primavera</temporada>
+    </flor>
+    <flor>
+        <nombre>Clavel</nombre>
+        <precio>25€</precio>
+        <color>Rosa</color>
+        <temporada>Primavera</temporada>
+    </flor>
+</floristeria>

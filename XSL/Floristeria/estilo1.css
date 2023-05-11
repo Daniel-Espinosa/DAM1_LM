@@ -1,0 +1,12 @@
+body{
+font-family: Verdana;
+background: green;
+text-align: center;
+}
+h1 {
+color: white;
+text-align: center;
+}
+ul{
+list-style-position: inside;
+}
