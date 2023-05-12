@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejemplo2.xsl" type="text/xsl"?>
+<protectora>
+    <perros>
+        <perro id="P01">
+            <nombre>Yogui</nombre>
+            <raza>Fox Terrier</raza>
+            <peso>8</peso>
+        </perro>
+        <perro id="P02">
+            <nombre>Visi</nombre>
+            <raza>Fox Terrier</raza>
+            <peso>5</peso>
+        </perro>
+        <perro id="P03">
+            <nombre>Marla</nombre>
+            <raza>American Stanford</raza>
+            <peso>13</peso>
+        </perro>
+        <perro id="P04">
+            <nombre>Laika</nombre>
+            <raza>Fox Terrier</raza>
+            <peso>7</peso>
+        </perro>
+        <perro id="P05">
+            <nombre>Bepo</nombre>
+            <raza>schnauzer</raza>
+            <peso>28</peso>
+        </perro>
+    </perros>
+</protectora>

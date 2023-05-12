@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejemplo1.xsl" type="text/xsl"?>
+<catalogo>
+    <libro>
+        <titulo>Manual imprescindible de C/C++</titulo>
+        <isbn>9788441526143</isbn>
+        <autores>
+            <autor>Miguel Angel</autor>
+        </autores>
+        <paginas>416</paginas>
+        <editorial>Anaya Multimedia</editorial>
+        <año>2016</año>
+    </libro>
+    <libro>
+        <titulo>Redes locales</titulo>
+        <isbn>9788441519800</isbn>
+        <autores>
+            <autor>Jim Doherty</autor>
+        </autores>
+        <paginas>544</paginas>
+        <editorial>Rama</editorial> 
+        <año>2018</año>
+    </libro>
+    <libro>
+        <titulo>Lenguajes de Marcas</titulo>
+        <isbn>9711441526143</isbn>
+        <autores>
+            <autor>Miguel Angel</autor>
+        </autores>
+        <paginas>500</paginas>
+        <editorial>Anaya Multimedia</editorial>
+        <año>2020</año>
+    </libro>
+    <libro>
+        <titulo>Lenguajes WEB</titulo>
+        <isbn>9722441526143</isbn>
+        <autores>
+            <autor>Miguel Angel</autor>
+        </autores>
+        <paginas>510</paginas>
+        <editorial>Paraninfo</editorial>
+        <año>2020</año>
+    </libro>
+    <libro>
+        <titulo>Gestores de contenido</titulo>
+        <isbn>9722441523333</isbn>
+        <autores>
+            <autor>Miguel Angel</autor>
+        </autores>
+        <paginas>515</paginas>
+        <editorial>Paraninfo</editorial>
+        <año>2021</año>
+    </libro>
+</catalogo>
