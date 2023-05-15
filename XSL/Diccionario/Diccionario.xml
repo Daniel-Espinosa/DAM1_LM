@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Diccionario.xsl"?>
+<Diccionario>
+	<castellano>
+		<saludo>Hola</saludo>
+		<despedida>adios</despedida>
+	</castellano>
+	<ingles>
+		<saludo>Hello</saludo>
+		<despedida>Bye</despedida>
+	</ingles>
+	<aleman>
+		<saludo>Hallo</saludo>
+		<despedida>Auf Wiedersehen</despedida>
+	</aleman>
+	<italiano>
+		<saludo>ciao</saludo>
+		<despedida>addio</despedida>
+	</italiano>
+</Diccionario>

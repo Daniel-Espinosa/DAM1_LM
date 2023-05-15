@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="FP.xsl"?><fp>
+    <ciclos>
+        <ciclo siglas="SMR">
+            <nombre>Sistemas Microinformáticos y Redes</nombre>
+            <familiaProfesional>Informática y Comunicaciones</familiaProfesional>
+            <duracion unidad="horas">2000</duracion>
+            <grado>Medio</grado>
+            <referenteInternacional clasificacion="CINE">3</referenteInternacional>
+        </ciclo>
+        <ciclo siglas="DAM">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <familiaProfesional>Informática y Comunicaciones</familiaProfesional>
+            <duracion unidad="horas">2000</duracion>
+            <grado>Superior</grado>
+            <referenteInternacional clasificacion="CINE">3</referenteInternacional>
+        </ciclo>
+        <ciclo siglas="DAW">
+            <nombre>Desarrollo de Aplicaciones Web</nombre>
+            <familiaProfesional>Informática y Comunicaciones</familiaProfesional>
+            <duracion unidad="horas">2000</duracion>
+            <grado>Superior</grado>
+            <referenteInternacional clasificacion="CINE">3</referenteInternacional>
+        </ciclo>
+        <ciclo siglas="ASIR">
+            <nombre>Administrador de Sistemas Informáticos en Red</nombre>
+            <familiaProfesional>Informática y Comunicaciones</familiaProfesional>
+            <duracion unidad="horas">2000</duracion>
+            <grado>Superior</grado>
+            <referenteInternacional clasificacion="CINE">5b</referenteInternacional>
+            <ects>120</ects>
+        </ciclo>
+    </ciclos>
+    <modulos>
+        <modulo codigo="0222">
+            <nombre>Sistemas Operativos Monopuesto</nombre>
+            <duracion unidad="horas">80</duracion>
+            <curso>1</curso>
+            <ciclos>
+                <ciclo siglas="SMR" />
+            </ciclos>
+        </modulo>
+        <modulo codigo="0373">
+            <nombre>Lenguaje de Marcas y Sistemas de Gestión de Información</nombre>
+            <duracion unidad="horas">70</duracion>
+            <ects>8</ects>
+            <curso>1</curso>
+            <ciclos>
+                <ciclo siglas="DAW" />
+                <ciclo siglas="DAM" />
+                <ciclo siglas="ASIR" />
+            </ciclos>
+        </modulo>
+    </modulos>
+</fp>

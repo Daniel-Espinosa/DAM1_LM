@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="balonmano.xsl"?>
+<final_balonmano_2016>
+  <equipos>
+    <equipo>
+      <nombre>España</nombre>
+      <entrenador>Manolo Cadenas</entrenador>
+      <jugadores>
+        <jugador posicion="portero">Gonzalo Perez de Vargas </jugador>
+        <jugador posicion="pivote">Gedeón Guardiola</jugador>
+        <jugador posicion="extremo derecho">Víctor Tomás</jugador>
+        <jugador posicion="extremo izquierdo">Cristian Ugalde</jugador>
+        <jugador posicion="lateral derecho">Alex Dujshebaev</jugador>
+        <jugador posicion="larteral izquierdo ">Antonio García</jugador>
+        <jugador posicion="Central">Raul Entrerrios</jugador>
+      </jugadores>
+    </equipo>
+    <equipo>
+      <nombre>Alemania</nombre>
+      <entrenador>Heiner Brand</entrenador>
+      <jugadores>
+        <jugador posicion="portero">gunter</jugador>
+        <jugador posicion="pivote"></jugador>
+        <jugador posicion="extremo derecho"></jugador>
+        <jugador posicion="extremo izquierdo"></jugador>
+        <jugador posicion="lateral derecho"></jugador>
+        <jugador posicion="larteral izquierdo "></jugador>
+        <jugador posicion="Central"></jugador>
+      </jugadores>
+    </equipo>
+  </equipos>
+</final_balonmano_2016>
