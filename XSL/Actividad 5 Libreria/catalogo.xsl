@@ -22,9 +22,9 @@
           <h2>Titulo Autores y Editorial</h2>
           <table>
             <tr>
-              <td>Titulo</td>
-              <td>Autores</td>
-              <td>Editorial</td>
+              <th>Titulo</th>
+              <th>Autores</th>
+              <th>Editorial</th>
             </tr>
             <xsl:for-each select="//libro">
               <tr>
@@ -41,23 +41,17 @@
             </xsl:for-each>
           </table>
         </div>
-        
         <div>
-        <h2>Ejercicio 2</h2>
+          <h2>Ejercicio 2</h2>
           <ul>
-          <xsl:for-each select="//libro[paginas>500]">
-          <xsl:sort select="titulo"/>
+            <xsl:for-each select="//libro[paginas&gt;500]">
+              <xsl:sort select="titulo"/>
               <li>
                 <xsl:value-of select="concat(titulo,' - ',paginas)"/>
               </li>
             </xsl:for-each>
-          
-          
-          
           </ul>
         </div>
-        
-        
       </body>
     </html>
   </xsl:template>

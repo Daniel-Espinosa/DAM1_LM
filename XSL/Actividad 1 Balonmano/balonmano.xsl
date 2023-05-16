@@ -23,7 +23,7 @@
 
 <table>
 
-<tr><td>Jugador</td><td>Posición</td></tr>
+<tr><th>Jugador</th><th>Posición</th></tr>
 
 <xsl:for-each select="jugadores/jugador">
 <tr>

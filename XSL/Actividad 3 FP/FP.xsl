@@ -8,11 +8,11 @@
         <link rel="stylesheet" type="text/css" href="FP.css"/>
       </head>
       <body>
-      
+      <div>
         <table>
           <tr>
-            <td>Nombre</td>
-            <td>Ciclos</td>
+            <th>Nombre</th>
+            <th>Ciclos</th>
           </tr>
           <xsl:for-each select="//modulo">
             <xsl:sort select="nombre"/>
@@ -28,7 +28,7 @@
             </tr>
           </xsl:for-each>
         </table>
-        
+      </div>  
       </body>
     </html>
   </xsl:template>

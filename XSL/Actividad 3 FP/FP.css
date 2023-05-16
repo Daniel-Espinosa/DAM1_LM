@@ -1,0 +1,16 @@
+body{
+    display: flex;  
+}
+
+div{
+    margin: auto;
+}
+
+table{
+    border: 1px solid;
+    border-color: blue;
+}
+
+th{
+    background-color: aqua;
+}

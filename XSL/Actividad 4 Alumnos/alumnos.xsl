@@ -25,10 +25,10 @@
           <h2>Convocatoria Junio</h2>
           <table>
             <tr>
-              <td>Nombre</td>
-              <td>Apellidos</td>
-              <td>Nota Examen Final</td>
-              <td>Calificacion</td>
+              <th>Nombre</th>
+              <th>Apellidos</th>
+              <th>Nota Examen Final</th>
+              <th>Calificacion</th>
             </tr>
             <xsl:for-each select="//alumno[@convocatoria = 'Junio']">
               <tr>

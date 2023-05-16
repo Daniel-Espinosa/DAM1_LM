@@ -1,0 +1,36 @@
+h1 {
+    color: goldenrod;
+}
+
+h2{
+    color: goldenrod;
+}
+
+table {
+    border: 1px solid;
+    border-color: blue;
+}
+
+th {
+    background-color: aqua;
+}
+
+#hRojo{
+    color: red;
+}
+
+#hVerde{
+    color: green;
+}
+
+#hAmarillo{
+    color: yellow;
+}
+
+body{
+    display: flex;
+}
+
+div{
+    margin: auto;
+}

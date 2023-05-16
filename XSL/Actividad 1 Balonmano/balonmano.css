@@ -1,0 +1,26 @@
+h1{
+    color: darkgoldenrod;
+}
+
+h2{
+    color: darkgoldenrod;
+}
+
+table{
+    border: 1px solid;
+    border-color: blue;
+}
+
+th{
+    background-color: aqua;
+    color: crimson;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    margin: auto;
+}
