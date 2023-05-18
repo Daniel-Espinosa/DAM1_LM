@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<futbol>
+    <jugadores>
+        <jugador>
+            <nombre>Francisco Gento López</nombre>
+            <año>1933</año>
+            <comunidad>Cantabria</comunidad>
+            <pais>España</pais>
+            <equipo>R Racing C</equipo>
+        </jugador>
+
+        <jugador>
+            <nombre>Sergio Canales</nombre>
+            <año>1991</año>
+            <comunidad>Cantabria</comunidad>
+            <pais>España</pais>
+            <equipo>R Racing C</equipo>
+        </jugador>
+
+        <jugador>
+            <nombre>José Emilio Amavisca</nombre>
+            <año>1971</año>
+            <comunidad>Cantabria</comunidad>
+            <pais>España</pais>
+            <equipo>R Racing C</equipo>
+        </jugador>
+
+        <jugador>
+            <nombre>Lionel Andrés Messi</nombre>
+            <año>1987</año>
+            <comunidad>Rosario</comunidad>
+            <pais>Argentina</pais>
+            <equipo>Barsa</equipo>
+        </jugador>
+        <jugador>
+            <nombre>Antoine Griezmann</nombre>
+            <año>1991</año>
+            <comunidad>Macon</comunidad>
+            <pais>Francia</pais>
+            <equipo>Barsa</equipo>
+        </jugador>
+
+        <jugador>
+            <nombre>Ansu Fati</nombre>
+            <año>2002</año>
+            <comunidad>Bisáu</comunidad>
+            <pais>Guinea</pais>
+            <equipo>Barsa</equipo>
+        </jugador>
+
+        <jugador>
+            <nombre>Sergio Ramos</nombre>
+            <año>1986</año>
+            <comunidad>Sevilla</comunidad>
+            <pais>España</pais>
+            <equipo>R Madrid</equipo>
+        </jugador>
+
+        <jugador>
+            <nombre>Karim Benzema</nombre>
+            <año>1987</año>
+            <comunidad>Lyon</comunidad>
+            <pais>Francia</pais>
+            <equipo>R Madrid</equipo>
+        </jugador>
+    </jugadores>
+    <equipos>
+        <equipo>
+            <nombre>Valencia F.C</nombre>
+            <ciudad>Valencia</ciudad>
+            <c_europa>2</c_europa>
+            <mundial>0</mundial>
+        </equipo>
+
+        <equipo>
+            <nombre>Barsa</nombre>
+            <ciudad>Barcelona</ciudad>
+            <c_europa>5</c_europa>
+            <mundial>3</mundial>
+        </equipo>
+        <equipo>
+            <nombre>R Madrid</nombre>
+            <ciudad>Madrid</ciudad>
+            <c_europa>13</c_europa>
+            <mundial>7</mundial>
+        </equipo>
+
+        <equipo>
+            <nombre>R Racing C</nombre>
+            <ciudad>Santander</ciudad>
+            <c_europa>0</c_europa>
+            <mundial>0</mundial>
+        </equipo>
+
+    </equipos>
+</futbol>
