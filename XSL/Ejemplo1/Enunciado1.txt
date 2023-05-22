@@ -1,0 +1,5 @@
+Construye una plantilla XSL y transforma el documento EJ1.xml en un documento HTML que
+contenga la siguiente información:
+● Lista con el título de cada libro y la editorial.
+● Tabla con el título del libro,autores y editorial.
+Construye un CSS y asígnale al documento html para que tenga una presentación armónica. 

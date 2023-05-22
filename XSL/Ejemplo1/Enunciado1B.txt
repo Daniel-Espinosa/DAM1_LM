@@ -1,0 +1,6 @@
+Construye una plantilla XSL y transforma el documento EJ1.xml en un documento HTML que
+contenga la siguiente información:
+● Lista con el título de los libros y su año de publicación, de los libros publicados en el 2018
+o años posteriores.
+● Tabla con el título del libro,autores y editorial de los libros del autor Miguel Angel.
+Construye un CSS y asígnale al documento html para que tenga una presentación armónica. 

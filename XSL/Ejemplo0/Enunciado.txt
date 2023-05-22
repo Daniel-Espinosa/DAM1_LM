@@ -1,0 +1,6 @@
+Construye una plantilla XSL y transforma el documento EJ0.xml en un documento HTML que
+contenga la siguiente información:
+● Lista con el cantante de cada disco.
+● Tabla con el título del disco,nombre del cantante y el año de cada disco.
+Construye un CSS y asígnale al documento html para que tenga una presentación armónica.
+Procura utilizar un elemento contenedor y trata de centrarlo horizontalmente.
