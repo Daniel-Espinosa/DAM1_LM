@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formula1>
+    <escuderias>
+        <escuderia id="MER">
+            <nombre>Mercedes-AMG Petronas Formula One Team</nombre>
+            <anioCreacion>2010</anioCreacion>
+            <ubicacion>Stuttgart</ubicacion>
+            <nacionalidad>Alemana</nacionalidad>
+            <patrocinador>Petronas</patrocinador>
+            <coche id="MER_W11">
+                <nombre>Mercedes-AMG F1 W11 EQ Performance</nombre>
+                <chasis>W12</chasis>
+                <motor>Mercedes-AMG M12 E Performance</motor>
+                <id_piloto>HAM</id_piloto>
+                <id_piloto>BOT</id_piloto>
+            </coche>
+        </escuderia>
+        <escuderia id="RBR">
+            <nombre>Red Bull Racing Honda</nombre>
+            <anioCreacion>2005</anioCreacion>
+            <ubicacion>Milton Keynes</ubicacion>
+            <nacionalidad>Británica</nacionalidad>
+            <patrocinador>Honda</patrocinador>
+            <coche id="RBR_RB16">
+                <nombre>Red Bull RB16</nombre>
+                <chasis>RB16B</chasis>
+                <motor>Honda RA621H</motor>
+                <id_piloto>VER</id_piloto>
+                <id_piloto>PER</id_piloto>
+            </coche>
+        </escuderia>
+        <escuderia id="FER">
+            <nombre>Scuderia Ferrari</nombre>
+            <anioCreacion>1950</anioCreacion>
+            <ubicacion>Maranello</ubicacion>
+            <nacionalidad>Italiana</nacionalidad>
+            <patrocinador>Banco Santander</patrocinador>
+            <coche id="FER_SF">
+                <nombre>Ferrari SF1000</nombre>
+                <chasis>SF21</chasis>
+                <motor>Ferrari 065/6</motor>
+                <id_piloto>LEC</id_piloto>
+                <id_piloto>SAI</id_piloto>
+            </coche>
+        </escuderia>
+    </escuderias>
+    <pilotos>
+            <piloto siglas="HAM" vueltasRapidas="6">
+                <nombre>Lewis Carl Davidson</nombre>
+                <apellidos>Hamilton</apellidos>
+                <nacionalidad>Británica</nacionalidad>
+                <fechaNacimiento>1985-01-07</fechaNacimiento>
+            </piloto>
+            <piloto siglas="BOT" vueltasRapidas="4">
+                <nombre>Valteri Viktor</nombre>
+                <apellidos>Bottas</apellidos>
+                <nacionalidad>Finlandés</nacionalidad>
+                <fechaNacimiento>1989-08-28</fechaNacimiento>
+            </piloto>
+            <piloto siglas="CHE" vueltasRapidas="2">
+                <nombre>Sergio Michel</nombre>
+                <apellidos>Pérez Mendoza</apellidos>
+                <nacionalidad>Mexicana</nacionalidad>
+                <fechaNacimiento>1990-01-26</fechaNacimiento>
+            </piloto>
+            <piloto siglas="VER" vueltasRapidas="6">
+                <nombre>Max Emilian</nombre>
+                <apellidos>Verstappen</apellidos>
+                <nacionalidad>Neerlandesa</nacionalidad>
+                <fechaNacimiento>1997-09-30</fechaNacimiento>
+                <escuderia id="RBR" />
+            </piloto>
+            <piloto siglas="RIC" vueltasRapidas="1">
+                <nombre>Daniel Joseph</nombre>
+                <apellidos>Ricciardo</apellidos>
+                <nacionalidad>Australiano</nacionalidad>
+                <fechaNacimiento>1989-07-01</fechaNacimiento>
+            </piloto>
+            <piloto siglas="NOR" vueltasRapidas="1">
+                <nombre>Lando</nombre>
+                <apellidos>Norris</apellidos>
+                <nacionalidad>Británica</nacionalidad>
+                <fechaNacimiento>1999-11-13</fechaNacimiento>
+            </piloto>
+            <piloto siglas="LEC">
+                <nombre>Charles Marc Hervé</nombre>
+                <apellidos>Leclerc</apellidos>
+                <nacionalidad>Neerlandesa</nacionalidad>
+                <fechaNacimiento>1997-10-16</fechaNacimiento>
+                <escuderia id="FER" />
+            </piloto>
+            <piloto siglas="SAI">
+                <nombre>Carlos</nombre>
+                <apellidos>Sainz Vázquez</apellidos>
+                <nacionalidad>Española</nacionalidad>
+                <fechaNacimiento>1994-12-31</fechaNacimiento>
+                <escuderia id="FER" />
+            </piloto>
+    </pilotos>
+    <circuitos>
+            <circuito id="C01">
+                <nombre>Circuito Internacional de Berein</nombre>
+                <ubicacion>Barein</ubicacion>
+                <longitud>5.412</longitud>
+                <vueltas>57</vueltas>
+            </circuito>
+            <circuito id="C02">
+                <nombre>Autodromo Enzo e Dino Ferrari</nombre>
+                <ubicacion>Italia</ubicacion>
+                <longitud>4.909</longitud>
+                <vueltas>63</vueltas>
+            </circuito>
+            <circuito id="C03">
+                <nombre>Autódromo Internacional do Algarve</nombre>
+                <ubicacion>Portugal</ubicacion>
+                <longitud>4.653</longitud>
+                <vueltas>66</vueltas>
+            </circuito>
+            <circuito id="C04">
+                <nombre>Circuito de Barcelona-Cataluña</nombre>
+                <ubicacion>España</ubicacion>
+                <longitud>4.675</longitud>
+                <vueltas>66</vueltas>
+            </circuito>
+            <circuito id="C05">
+                <nombre>Circuito de Mónaco</nombre>
+                <ubicacion>Monaco</ubicacion>
+                <longitud>3.337</longitud>
+                <vueltas>78</vueltas>
+            </circuito>
+            <circuito id="C06">
+                <nombre>Circuito callejero de Bakú</nombre>
+                <ubicacion>Azerbaiyán</ubicacion>
+                <longitud>6.003</longitud>
+                <vueltas>51</vueltas>
+            </circuito>
+            <circuito id="C07">
+                <nombre>Circuito Paul Ricard</nombre>
+                <ubicacion>Francia</ubicacion>
+                <longitud>5.842</longitud>
+                <vueltas>53</vueltas>
+            </circuito>
+            <circuito id="C08">
+                <nombre>Red Bull Ring</nombre>
+                <ubicacion>Austria</ubicacion>
+                <longitud>4.318</longitud>
+                <vueltas>71</vueltas>
+            </circuito>
+            <circuito id="C09">
+                <nombre>Circuito de Silverstone</nombre>
+                <ubicacion>Reino Unido</ubicacion>
+                <longitud>5.891</longitud>
+                <vueltas>52</vueltas>
+            </circuito>
+    </circuitos>
+        <resultados>
+            <circuito id="C01">
+                <vueltaRapida piloto="BOT">1:32.090</vueltaRapida>
+                <podium>
+                    <primero piloto="HAM"/>
+                    <segundo piloto="VER"/>
+                    <tercero piloto="BOT"/>
+                </podium>
+                <pole piloto="VER"/>
+                <fechaCarrera>2021-03-28</fechaCarrera>
+                <neumaticosSeco />
+            </circuito>
+            <circuito id="C02">
+                <vueltaRapida piloto="HAM">1:16.720</vueltaRapida>
+                <podium>
+                    <primero piloto="VER"/>
+                    <segundo piloto="HAM"/>
+                    <tercero piloto="NOR"/>
+                </podium>
+                <pole piloto="HAM"/>
+                <fechaCarrera>2021-04-18</fechaCarrera>
+                <neumaticosLluvia />
+            </circuito>
+            <circuito id="C03">
+                <vueltaRapida piloto="BOT">1:19.865</vueltaRapida>
+                <podium>
+                    <primero piloto="HAM"/>
+                    <segundo piloto="VER"/>
+                    <tercero piloto="BOT"/>
+                </podium>
+                <pole piloto="BOT"/>
+                <fechaCarrera>2021-05-2</fechaCarrera>
+                <neumaticosLluvia />
+            </circuito>
+            <circuito id="C04">
+                <vueltaRapida piloto="VER">1:18.149</vueltaRapida>
+                <podium>
+                    <primero piloto="HAM"/>
+                    <segundo piloto="VER"/>
+                    <tercero piloto="VER"/>
+                </podium>
+                <pole piloto="HAM"/>
+                <fechaCarrera>2021-05-09</fechaCarrera>
+                <neumaticosLluvia />
+            </circuito>
+        </resultados>
+
+        <clasificacionPilotos>
+            <primero piloto="VER" />
+            <segundo piloto="HAM" />
+            <tercero piloto="BOT" />
+            <cuarto piloto="PER" />
+            <quinto piloto="SAI" />
+            <sexto piloto="NOR" />
+            <septimo piloto="LEC" />
+            <octavo piloto="RIC" />
+            <noveno piloto="GAS" />
+            <decimo piloto="ALO" />
+            <undecimo piloto="OCO" />
+            <duodecimo piloto="VET" />
+            <decimo_tercero piloto="STR" />
+            <decimo_cuarto piloto="TSU" />
+            <decimo_quinto piloto="RUS" />
+            <decimo_sexto piloto="RAI" />
+            <decimo_septimo piloto="LAT" />
+            <decimo_octavo piloto="GIO" />
+            <decimo_noveno piloto="MSC" />
+            <vigesimo piloto="KUB" />
+            <vigesimo_primero piloto="MAZ" />
+        </clasificacionPilotos>
+
+</formula1>

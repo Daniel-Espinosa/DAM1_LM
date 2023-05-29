@@ -2,6 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html" encoding="utf-8" indent="yes"/>
   <xsl:template match="/">
+  
+ 
+  
     <html>
       <head>
         <title>Libreria</title>
@@ -32,7 +35,9 @@
                   <xsl:value-of select="titulo"/>
                 </td>
                 <td>
-                  <xsl:value-of select="autores/autor"/>
+                <xsl:for-each select="autores/autor">
+                <xsl:value-of select="concat(.,' ')"/>
+                </xsl:for-each>
                 </td>
                 <td>
                   <xsl:value-of select="editorial"/>
@@ -44,7 +49,7 @@
         <div>
           <h2>Ejercicio 2</h2>
           <ul>
-            <xsl:for-each select="//libro[paginas&gt;500]">
+            <xsl:for-each select="//libro[paginas &gt;500]">
               <xsl:sort select="titulo"/>
               <li>
                 <xsl:value-of select="concat(titulo,' - ',paginas)"/>
