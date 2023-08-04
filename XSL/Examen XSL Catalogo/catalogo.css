@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    margin: auto;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: green;
+}
+
+table{
+    border: 1px solid;
+    border-color: gray;
+}
+
+th{
+    border: 1px solid;
+    border-color: gray;
+}
+td{
+    border: 1px solid;
+    border-color: gray;
+}
