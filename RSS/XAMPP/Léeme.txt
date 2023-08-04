@@ -1,0 +1,1 @@
+Esta carpeta debe colocarse en C:\xampp\htdocs

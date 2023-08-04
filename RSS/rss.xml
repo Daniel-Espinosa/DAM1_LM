@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Cinemanía</title>
+		<link>http://localhost/ejemplo1</link>
+		<description>Noticias sobre cine</description>
+		<!--OPCIONALES-->
+		<copyright>Todos los derechos reservados</copyright>
+		<language>es</language>
+		<category>Arte</category>
+		<image>
+			<url>http://localhost/ejemplo1/logo.png</url>
+			<title>Cinemanía</title>
+			<link>http://localhost/ejemplo1</link>
+		</image>
+		
+		
+		<!--Secciones de noticias-->
+		<item>
+			<title>Web cine</title>
+			<link>http://localhost/ejemplo1/cine/index.html</link>
+			<guid>http://localhost/ejemplo1/cine/index.html</guid>
+			<description>Esta pagina web donde os cuento los últimos estrenos</description>
+		</item>
+		
+		<item>
+			<title>RTVE sección play</title>
+			<link>https://www.rtve.es/play/</link>
+			<description>películas y series online</description>
+		</item>
+		<item>
+			<title>Diario Montañes</title>
+			<link>https://www.eldiariomontanes.es/culturas/</link>
+			<description>Sección de cultura del Diario Montañes</description>
+		</item>
+		
+		<item>
+			<title>Diario Alerta</title>
+			<link>https://www.eldiarioalerta.com/blog/section/cultura</link>
+			<description>Sección de cultura del Diario Alerta</description>
+		</item>
+		
+	</channel>
+</rss>

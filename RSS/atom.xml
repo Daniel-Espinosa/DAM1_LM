@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<!--Mi canal-->
+	<title>Cinemanía</title>
+	<link href="http://localhost/ejemplo1"/>
+	<id>http://localhost/ejemplo1</id>
+	<updated>2022-02-15T14:12:02Z</updated>
+	<author>
+		<name>Esther</name>
+	</author>
+	
+	<!--Secciones de noticias-->
+	<entry>
+		<title>Web cine</title>
+		<id>http://localhost/ejemplo1/cine/index.html</id>
+		<link href="http://localhost/ejemplo1/cine/index.html"/>
+		<updated>2022-02-15T14:12:02Z</updated>
+		<summary>Esta pagina web donde os cuento los últimos estrenos</summary>		
+	</entry>
+	
+	<entry>
+		<title>RTVE sección play</title>
+		<id>https://www.rtve.es/play/</id>
+		<link href="https://www.rtve.es/play/"/>
+		<updated>2022-02-15T14:12:02Z</updated>
+		<summary>películas y series online</summary>		
+	</entry>
+	
+	<entry>
+		<title>Diario Montañes</title>
+		<id>https://www.eldiariomontanes.es/culturas/</id>
+		<link href="https://www.eldiariomontanes.es/culturas/"/>
+		<updated>2022-02-15T14:12:02Z</updated>
+		<summary>Sección de cultura del Diario Montañes</summary>		
+	</entry>
+	
+	<entry>
+		<title>Diario Alerta</title>
+		<id>https://www.eldiarioalerta.com/blog/section/cultura</id>
+		<link href="https://www.eldiarioalerta.com/blog/section/cultura"/>
+		<updated>2022-02-15T14:12:02Z</updated>
+		<summary>Sección de cultura del Diario Alerta</summary>		
+	</entry>
+	
+</feed>
+		

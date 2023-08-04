@@ -7,8 +7,8 @@ for $x in //escuderias/escuderia
 where $x/anioCreacion <2000
 return $x,
 ('3. Muestra el contenido de todas las nacionalidades diferentes a las que pertenecen los pilotos.'),
-for $x in //pilotos/piloto 
-return distinct-values($x/nacionalidad),
+for $x in //pilotos
+return distinct-values($x/piloto/nacionalidad),
 ('4. Muestra el número total de carreras que hay en el documento (que ya se hayan disputado).'),
 let $x := count(//resultados/circuito) 
 return $x,
